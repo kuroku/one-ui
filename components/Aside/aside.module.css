@@ -1,0 +1,22 @@
+#drawer {
+  --width: 224px;
+  width: var(--width);
+  flex-shrink: 0;
+  height: 100%;
+  background: red;
+}
+
+#drawer.left {
+  order: 1
+}
+#drawer.left.overflow {
+  margin-left: calc(var(--width) * -1);
+}
+
+#drawer.right {
+  order: 3;
+}
+
+#drawer.right.overflow {
+  margin-right: calc(var(--width) * -1);
+}
