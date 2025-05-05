@@ -1,0 +1,17 @@
+{
+  "name": "one-ui",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuroku/one-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kuroku/one-ui/issues"
+  },
+  "homepage": "https://github.com/kuroku/one-ui#readme"
+}
